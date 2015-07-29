@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SelectorController">
+            <connections>
+                <outlet property="slider" destination="Y00-lO-ceS" id="sHZ-Qv-kES"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Y00-lO-ceS">
+                    <rect key="frame" x="6" y="149" width="363" height="31"/>
+                </slider>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C9Z-zZ-QL6">
+                    <rect key="frame" x="94" y="244" width="186" height="30"/>
+                    <state key="normal" title="Crunch data">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onCrunchData:" destination="-1" eventType="touchUpInside" id="PpY-iV-nxF"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="Y00-lO-ceS" secondAttribute="centerX" id="2FM-ZQ-FQc"/>
+                <constraint firstAttribute="centerX" secondItem="Y00-lO-ceS" secondAttribute="centerX" id="82j-Hc-9Dc"/>
+                <constraint firstAttribute="centerX" secondItem="C9Z-zZ-QL6" secondAttribute="centerX" id="HcR-Mf-uPi"/>
+                <constraint firstAttribute="trailing" secondItem="Y00-lO-ceS" secondAttribute="trailing" constant="8" id="L9h-AW-yng"/>
+                <constraint firstItem="Y00-lO-ceS" firstAttribute="top" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="149" id="bG9-Xj-ZeV"/>
+                <constraint firstItem="C9Z-zZ-QL6" firstAttribute="top" secondItem="Y00-lO-ceS" secondAttribute="bottom" constant="65" id="dAD-Oy-wDL"/>
+                <constraint firstItem="Y00-lO-ceS" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailingMargin" id="fvC-u3-5D6"/>
+                <constraint firstItem="Y00-lO-ceS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" id="hCQ-9V-pmv"/>
+                <constraint firstItem="Y00-lO-ceS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="lZx-zY-hpq"/>
+                <constraint firstAttribute="centerX" secondItem="C9Z-zZ-QL6" secondAttribute="centerX" id="vAE-pU-As8"/>
+                <constraint firstItem="Y00-lO-ceS" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="149" id="y20-4k-uhd"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="278.5" y="440.5"/>
+        </view>
+    </objects>
+</document>

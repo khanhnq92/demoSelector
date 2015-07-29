@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WeatherController">
+            <connections>
+                <outlet property="btnNhietDo" destination="mqU-P2-YvM" id="3eG-84-z2R"/>
+                <outlet property="images" destination="T8T-ys-3i3" id="67Z-ya-1OT"/>
+                <outlet property="lblContent" destination="3Hp-3W-Nfb" id="wJS-pU-Rb2"/>
+                <outlet property="lblDo" destination="SrM-gK-5Vk" id="xMh-8j-70L"/>
+                <outlet property="lbltem" destination="N3j-vX-Uv3" id="xzB-G3-Eil"/>
+                <outlet property="view" destination="UzL-us-LFB" id="TCe-78-Mca"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="UzL-us-LFB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mqU-P2-YvM">
+                    <rect key="frame" x="94" y="131" width="190" height="132"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="190" id="CHG-Lw-4qE"/>
+                        <constraint firstAttribute="height" constant="132" id="Rez-Lc-DsB"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                    <state key="normal" title="29.5">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="doNhietdo:" destination="-1" eventType="touchUpInside" id="e7n-d4-yWZ"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jrd-oj-DJK">
+                    <rect key="frame" x="278" y="140" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="9wm-BT-hJR"/>
+                        <constraint firstAttribute="width" constant="42" id="LdD-q8-YBg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SrM-gK-5Vk">
+                    <rect key="frame" x="292" y="147" width="42" height="46"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="42" id="T6x-65-1F0"/>
+                        <constraint firstAttribute="height" constant="46" id="b0q-cH-dkZ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ico_sun.png" translatesAutoresizingMaskIntoConstraints="NO" id="T8T-ys-3i3">
+                    <rect key="frame" x="130" y="260" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="Pay-Kl-bac"/>
+                        <constraint firstAttribute="height" constant="100" id="wtk-Vy-PPE"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trên con đường thành công luôn có nhiều gai. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Hp-3W-Nfb">
+                    <rect key="frame" x="82" y="352" width="215" height="101"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="215" id="3f9-gg-XHp"/>
+                        <constraint firstAttribute="height" constant="101" id="VDO-CW-ceV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lze-D5-WIB">
+                    <rect key="frame" x="143" y="461" width="75" height="75"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="75" id="FfW-Bg-0rs"/>
+                        <constraint firstAttribute="height" constant="75" id="ZCT-uW-iqc"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="ico_update.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnUpdate:" destination="-1" eventType="touchUpInside" id="pPZ-z7-Pgf"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ico_Location.png" translatesAutoresizingMaskIntoConstraints="NO" id="Br9-mk-Tb5">
+                    <rect key="frame" x="8" y="92" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="H6E-ab-F4X"/>
+                        <constraint firstAttribute="width" constant="50" id="WMs-Lk-xBL"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N3j-vX-Uv3">
+                    <rect key="frame" x="66" y="92" width="216" height="46"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="216" id="8ok-Fe-1cV"/>
+                        <constraint firstAttribute="height" constant="46" id="ToC-BN-2wx"/>
+                    </constraints>
+                    <string key="text">Hà Nội, Việt Nam	</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Jrd-oj-DJK" firstAttribute="leading" secondItem="UzL-us-LFB" secondAttribute="leading" constant="278" id="1Zq-QA-Tde"/>
+                <constraint firstItem="mqU-P2-YvM" firstAttribute="leading" secondItem="Br9-mk-Tb5" secondAttribute="trailing" constant="36" id="Aw7-Mk-8au"/>
+                <constraint firstItem="3Hp-3W-Nfb" firstAttribute="top" secondItem="mqU-P2-YvM" secondAttribute="bottom" constant="89" id="E1i-yh-Hqr"/>
+                <constraint firstItem="N3j-vX-Uv3" firstAttribute="top" secondItem="UzL-us-LFB" secondAttribute="top" constant="92" id="EBQ-Kf-0vq"/>
+                <constraint firstItem="3Hp-3W-Nfb" firstAttribute="leading" secondItem="UzL-us-LFB" secondAttribute="leading" constant="82" id="MZ4-fm-8Im"/>
+                <constraint firstItem="T8T-ys-3i3" firstAttribute="top" secondItem="N3j-vX-Uv3" secondAttribute="bottom" constant="122" id="NnS-k9-E5e"/>
+                <constraint firstItem="Br9-mk-Tb5" firstAttribute="top" secondItem="UzL-us-LFB" secondAttribute="top" constant="92" id="QOV-gJ-ctL"/>
+                <constraint firstItem="T8T-ys-3i3" firstAttribute="leading" secondItem="UzL-us-LFB" secondAttribute="leading" constant="130" id="SNa-O6-RR2"/>
+                <constraint firstItem="N3j-vX-Uv3" firstAttribute="leading" secondItem="Br9-mk-Tb5" secondAttribute="trailing" constant="8" id="Wjo-5w-1VT"/>
+                <constraint firstItem="Lze-D5-WIB" firstAttribute="leading" secondItem="UzL-us-LFB" secondAttribute="leading" constant="143" id="hAA-FI-iqN"/>
+                <constraint firstItem="Br9-mk-Tb5" firstAttribute="leading" secondItem="UzL-us-LFB" secondAttribute="leading" constant="8" id="nb5-p4-fiP"/>
+                <constraint firstItem="Lze-D5-WIB" firstAttribute="top" secondItem="3Hp-3W-Nfb" secondAttribute="bottom" constant="8" id="oZt-YD-1zL"/>
+                <constraint firstItem="mqU-P2-YvM" firstAttribute="top" secondItem="UzL-us-LFB" secondAttribute="top" constant="131" id="t2c-l3-pm5"/>
+                <constraint firstItem="Jrd-oj-DJK" firstAttribute="top" secondItem="N3j-vX-Uv3" secondAttribute="bottom" constant="2" id="t7v-M9-j8b"/>
+                <constraint firstItem="SrM-gK-5Vk" firstAttribute="leading" secondItem="mqU-P2-YvM" secondAttribute="trailing" constant="8" id="ur6-Dg-CGs"/>
+                <constraint firstItem="SrM-gK-5Vk" firstAttribute="top" secondItem="UzL-us-LFB" secondAttribute="top" constant="147" id="zk5-6d-cfg"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ico_Location.png" width="128" height="128"/>
+        <image name="ico_sun.png" width="128" height="128"/>
+        <image name="ico_update.png" width="128" height="128"/>
+    </resources>
+</document>
