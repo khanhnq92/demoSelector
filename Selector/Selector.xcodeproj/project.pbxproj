@@ -30,6 +30,7 @@
 		03A651A61B5F8AE200315FAA /* SilderAdvanced.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A651A41B5F8AE200315FAA /* SilderAdvanced.xib */; };
 		03A651B61B5F9EFE00315FAA /* OnWhiteLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 03A651B21B5F9EFE00315FAA /* OnWhiteLeft.png */; };
 		03A651BA1B5F9F1C00315FAA /* TurnOnOff.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A651B81B5F9F1C00315FAA /* TurnOnOff.m */; };
+		03CFA9B91B6884080063635E /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CFA9B81B6884080063635E /* Student.m */; };
 		03FFAE881B55FD7D0041087E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FFAE871B55FD7D0041087E /* main.m */; };
 		03FFAE931B55FD7D0041087E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03FFAE921B55FD7D0041087E /* Images.xcassets */; };
 		03FFAE961B55FD7D0041087E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03FFAE941B55FD7D0041087E /* LaunchScreen.xib */; };
@@ -97,6 +98,8 @@
 		03A651B71B5F9F1C00315FAA /* TurnOnOff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurnOnOff.h; sourceTree = "<group>"; };
 		03A651B81B5F9F1C00315FAA /* TurnOnOff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TurnOnOff.m; sourceTree = "<group>"; };
 		03A651B91B5F9F1C00315FAA /* TurnOnOff.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TurnOnOff.xib; sourceTree = "<group>"; };
+		03CFA9B71B6884080063635E /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		03CFA9B81B6884080063635E /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		03FFAE821B55FD7D0041087E /* Selector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Selector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03FFAE861B55FD7D0041087E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03FFAE871B55FD7D0041087E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -177,6 +180,8 @@
 			children = (
 				03A5D79E1B686AE10023119C /* QueryArray.h */,
 				03A5D79F1B686AE10023119C /* QueryArray.m */,
+				03CFA9B71B6884080063635E /* Student.h */,
+				03CFA9B81B6884080063635E /* Student.m */,
 			);
 			name = Array;
 			sourceTree = "<group>";
@@ -435,6 +440,7 @@
 				03A3F80A1B65C44900A45D76 /* TransFormController.m in Sources */,
 				0375444B1B5CD94B00E74DD9 /* InterLED.m in Sources */,
 				03A5D7921B6720720023119C /* ScrollViewController.m in Sources */,
+				03CFA9B91B6884080063635E /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
