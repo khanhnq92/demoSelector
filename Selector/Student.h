@@ -9,5 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface Student : NSObject
-
+@property(nonatomic,strong) NSString* fullName;
+@property(nonatomic,strong) NSString* studentID;
+-(instancetype) init:(NSString*)fullName andID:(NSString*)studentID;
+-(void)sayYourName;
 @end
