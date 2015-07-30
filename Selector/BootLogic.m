@@ -26,7 +26,7 @@
                                      @{TITLE: @"scrollView", CLASS: @"ScrollViewController"},
                           ]};
     NSDictionary* AraayDemo= @{SECTION: @"Araay", MENU: @[
-                                           @{TITLE: @"Inter LED", CLASS: @"QueryArray"},
+                                           @{TITLE: @"Query Array", CLASS: @"QueryArray"},
                                            ]};
 
     NSDictionary* intermediate = @{SECTION: @"Intermediate", MENU: @[
