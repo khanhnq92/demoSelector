@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     digit=@[@"không",@"một",@"hai",@"ba",@"bốn",@"năm",@"sáu",@"bảy",@"tám",@"chín",@"mười"];
-    [self print:10];
+    [self print:44];
     // Do any additional setup after loading the view.
 }
 -(void)print:(int) num{
