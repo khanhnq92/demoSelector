@@ -53,6 +53,7 @@
 		84A4B36E1B60A139006C43B4 /* ruby.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A4B36B1B60A139006C43B4 /* ruby.png */; };
 		84A4B36F1B60A139006C43B4 /* IamRickController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4B36D1B60A139006C43B4 /* IamRickController.m */; };
 		84A4B3731B60A16E006C43B4 /* IamRick.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A4B3721B60A16E006C43B4 /* IamRick.xib */; };
+		BEBAAD341B6A5391004A6169 /* DocSo.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBAAD331B6A5391004A6169 /* DocSo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,6 +135,8 @@
 		84A4B36C1B60A139006C43B4 /* IamRickController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IamRickController.h; sourceTree = "<group>"; };
 		84A4B36D1B60A139006C43B4 /* IamRickController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IamRickController.m; sourceTree = "<group>"; };
 		84A4B3721B60A16E006C43B4 /* IamRick.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IamRick.xib; sourceTree = "<group>"; };
+		BEBAAD321B6A5391004A6169 /* DocSo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocSo.h; sourceTree = "<group>"; };
+		BEBAAD331B6A5391004A6169 /* DocSo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocSo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +185,8 @@
 				03A5D79F1B686AE10023119C /* QueryArray.m */,
 				03CFA9B71B6884080063635E /* Student.h */,
 				03CFA9B81B6884080063635E /* Student.m */,
+				BEBAAD321B6A5391004A6169 /* DocSo.h */,
+				BEBAAD331B6A5391004A6169 /* DocSo.m */,
 			);
 			name = Array;
 			sourceTree = "<group>";
@@ -424,6 +429,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03A651A51B5F8AE200315FAA /* SilderAdvanced.m in Sources */,
+				BEBAAD341B6A5391004A6169 /* DocSo.m in Sources */,
 				03FFAEBC1B5600520041087E /* SelectorController.m in Sources */,
 				03FFAEB51B55FED90041087E /* BootLogic.m in Sources */,
 				03FFAEB71B55FED90041087E /* MainScreen.m in Sources */,

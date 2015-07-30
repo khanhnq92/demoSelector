@@ -27,6 +27,7 @@
                           ]};
     NSDictionary* AraayDemo= @{SECTION: @"Araay", MENU: @[
                                            @{TITLE: @"Query Array", CLASS: @"QueryArray"},
+                                           @{TITLE: @"Read number", CLASS: @"DocSo"},
                                            ]};
 
     NSDictionary* intermediate = @{SECTION: @"Intermediate", MENU: @[
