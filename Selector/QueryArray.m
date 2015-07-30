@@ -16,6 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+// ------Phan 1
+    
     UIImage* img= [[UIImage alloc] initWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://techmaster.vn/theme_resources/frontend/tech/img/logo.png"]]];
     NSArray* arr=@[@"abc",@3.12,img];
     if ([arr containsObject:@"abc"]) {
@@ -45,7 +48,44 @@
         NSLog(@"indexOfObjectPassingTest: Tim thay tai index:%ld",kq);
     else
         NSLog(@"indexOfObjectPassingTest: Khong tim thay tai index:%ld",kq);
+// ------Phan 2
+    NSArray* dsCauThu=@[@" Petr Cech" ,
+                            @"Ross Turnbull",
+                            @"Henrique Hilario",
+                            @" Jan Sebek" ,
+                            @" Branislav Ivanovic" ,
+                            @"Ashley Cole" ,
+                            @"David Luiz Moreira Marinho",
+                            @"Jose Bosingwa da Silva" ,
+                            @"Paulo Renato Rebocho Ferreira" ,
+                            @"John Terry",
+                            @"Rodrigo Dias da Costa, Alex",
+                            @" Sam Hutchinson" ,
+                            @"Michael Essien" ,
+                            @" Ramires Santos do Nascimento",
+                            @"Frank Lampard" ,
+                            @"Yossi Benayoun" ,
+                            @"John Obi Mikel" ,
+                            @"Florent Malouda" ,
+                             ];
+   NSArray*doituyen= [self getDoiTuyen:dsCauThu];
+    for (int i=0; i<doituyen.count; i++) {
+        NSLog(@"%@",doituyen[i]);
+    }
 }
 
+-(NSArray*) getDoiTuyen:(NSArray*)dsCT{
+    NSMutableArray* kq =  [NSMutableArray new];
+    int lengthDSCT=(int)[dsCT count];
 
+    for (int i=0; i<11; i++) {
+    int index=arc4random_uniform(lengthDSCT);
+        if (![kq containsObject:dsCT[index]]){
+            [kq addObject:dsCT[index]];
+        }else
+            i--;
+    }
+    NSLog(@"SO luong cau thu %ld",[kq count]);
+    return kq;
+}
 @end
