@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0317617B1B6F4C23003EF1D0 /* SapXepArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 0317617A1B6F4C23003EF1D0 /* SapXepArray.m */; };
 		032667C51B5E4E9800FC7ECB /* bg_MinimumTrackImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 032667C21B5E4E9800FC7ECB /* bg_MinimumTrackImage.png */; };
 		032667C71B5E4E9800FC7ECB /* Thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 032667C41B5E4E9800FC7ECB /* Thumb.png */; };
 		032667C91B5E556B00FC7ECB /* bg_MaximumTrackImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 032667C81B5E556B00FC7ECB /* bg_MaximumTrackImage.png */; };
@@ -67,6 +68,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		031761791B6F4C23003EF1D0 /* SapXepArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SapXepArray.h; sourceTree = "<group>"; };
+		0317617A1B6F4C23003EF1D0 /* SapXepArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SapXepArray.m; sourceTree = "<group>"; };
 		032667C21B5E4E9800FC7ECB /* bg_MinimumTrackImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_MinimumTrackImage.png; sourceTree = "<group>"; };
 		032667C41B5E4E9800FC7ECB /* Thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Thumb.png; sourceTree = "<group>"; };
 		032667C81B5E556B00FC7ECB /* bg_MaximumTrackImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_MaximumTrackImage.png; sourceTree = "<group>"; };
@@ -187,6 +190,8 @@
 				03A5D79F1B686AE10023119C /* QueryArray.m */,
 				03CFA9B71B6884080063635E /* Student.h */,
 				03CFA9B81B6884080063635E /* Student.m */,
+				031761791B6F4C23003EF1D0 /* SapXepArray.h */,
+				0317617A1B6F4C23003EF1D0 /* SapXepArray.m */,
 			);
 			name = Array;
 			sourceTree = "<group>";
@@ -440,6 +445,7 @@
 				03FFAEB61B55FED90041087E /* ConsoleScreen.m in Sources */,
 				03FFAEB41B55FED90041087E /* AppDelegate.m in Sources */,
 				03A651BA1B5F9F1C00315FAA /* TurnOnOff.m in Sources */,
+				0317617B1B6F4C23003EF1D0 /* SapXepArray.m in Sources */,
 				03A5D7A01B686AE10023119C /* QueryArray.m in Sources */,
 				03FFAE881B55FD7D0041087E /* main.m in Sources */,
 				0375443C1B5CD2AA00E74DD9 /* Slider.m in Sources */,

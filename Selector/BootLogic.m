@@ -28,6 +28,7 @@
     NSDictionary* AraayDemo= @{SECTION: @"Araay", MENU: @[
                                            @{TITLE: @"Query Array", CLASS: @"QueryArray"},
                                            @{TITLE: @"Read number", CLASS: @"DocSo"},
+                                           @{TITLE: @"Quick Sort", CLASS: @"SapXepArray"},
                                            ]};
 
     NSDictionary* intermediate = @{SECTION: @"Intermediate", MENU: @[
