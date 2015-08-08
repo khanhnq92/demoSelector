@@ -11,6 +11,8 @@
 		032667C51B5E4E9800FC7ECB /* bg_MinimumTrackImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 032667C21B5E4E9800FC7ECB /* bg_MinimumTrackImage.png */; };
 		032667C71B5E4E9800FC7ECB /* Thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 032667C41B5E4E9800FC7ECB /* Thumb.png */; };
 		032667C91B5E556B00FC7ECB /* bg_MaximumTrackImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 032667C81B5E556B00FC7ECB /* bg_MaximumTrackImage.png */; };
+		034857D61B759DE10099F0C8 /* SwiftToObjectiveCController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034857D41B759DE10099F0C8 /* SwiftToObjectiveCController.m */; };
+		034857D71B759DE10099F0C8 /* SwiftToObjectiveCController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 034857D51B759DE10099F0C8 /* SwiftToObjectiveCController.xib */; };
 		0375443C1B5CD2AA00E74DD9 /* Slider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0375443A1B5CD2AA00E74DD9 /* Slider.m */; };
 		0375443D1B5CD2AA00E74DD9 /* Slider.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0375443B1B5CD2AA00E74DD9 /* Slider.xib */; };
 		037544411B5CD6B500E74DD9 /* LEDController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0375443F1B5CD6B500E74DD9 /* LEDController.m */; };
@@ -32,6 +34,8 @@
 		03A651B61B5F9EFE00315FAA /* OnWhiteLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 03A651B21B5F9EFE00315FAA /* OnWhiteLeft.png */; };
 		03A651BA1B5F9F1C00315FAA /* TurnOnOff.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A651B81B5F9F1C00315FAA /* TurnOnOff.m */; };
 		03CFA9B91B6884080063635E /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CFA9B81B6884080063635E /* Student.m */; };
+		03E04B981B75B72400E95677 /* MultiConvertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E04B961B75B72300E95677 /* MultiConvertController.m */; };
+		03E04B991B75B72400E95677 /* MultiConvertController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03E04B971B75B72300E95677 /* MultiConvertController.xib */; };
 		03FFAE881B55FD7D0041087E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FFAE871B55FD7D0041087E /* main.m */; };
 		03FFAE931B55FD7D0041087E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03FFAE921B55FD7D0041087E /* Images.xcassets */; };
 		03FFAE961B55FD7D0041087E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03FFAE941B55FD7D0041087E /* LaunchScreen.xib */; };
@@ -73,6 +77,9 @@
 		032667C21B5E4E9800FC7ECB /* bg_MinimumTrackImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_MinimumTrackImage.png; sourceTree = "<group>"; };
 		032667C41B5E4E9800FC7ECB /* Thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Thumb.png; sourceTree = "<group>"; };
 		032667C81B5E556B00FC7ECB /* bg_MaximumTrackImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_MaximumTrackImage.png; sourceTree = "<group>"; };
+		034857D31B759DE10099F0C8 /* SwiftToObjectiveCController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftToObjectiveCController.h; sourceTree = "<group>"; };
+		034857D41B759DE10099F0C8 /* SwiftToObjectiveCController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiftToObjectiveCController.m; sourceTree = "<group>"; };
+		034857D51B759DE10099F0C8 /* SwiftToObjectiveCController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwiftToObjectiveCController.xib; sourceTree = "<group>"; };
 		037544391B5CD2AA00E74DD9 /* Slider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slider.h; sourceTree = "<group>"; };
 		0375443A1B5CD2AA00E74DD9 /* Slider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slider.m; sourceTree = "<group>"; };
 		0375443B1B5CD2AA00E74DD9 /* Slider.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Slider.xib; sourceTree = "<group>"; };
@@ -104,6 +111,9 @@
 		03A651B91B5F9F1C00315FAA /* TurnOnOff.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TurnOnOff.xib; sourceTree = "<group>"; };
 		03CFA9B71B6884080063635E /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		03CFA9B81B6884080063635E /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		03E04B951B75B72300E95677 /* MultiConvertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiConvertController.h; sourceTree = "<group>"; };
+		03E04B961B75B72300E95677 /* MultiConvertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiConvertController.m; sourceTree = "<group>"; };
+		03E04B971B75B72300E95677 /* MultiConvertController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultiConvertController.xib; sourceTree = "<group>"; };
 		03FFAE821B55FD7D0041087E /* Selector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Selector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03FFAE861B55FD7D0041087E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03FFAE871B55FD7D0041087E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -160,6 +170,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		034857D21B759D490099F0C8 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				034857D31B759DE10099F0C8 /* SwiftToObjectiveCController.h */,
+				034857D41B759DE10099F0C8 /* SwiftToObjectiveCController.m */,
+				034857D51B759DE10099F0C8 /* SwiftToObjectiveCController.xib */,
+				03E04B951B75B72300E95677 /* MultiConvertController.h */,
+				03E04B961B75B72300E95677 /* MultiConvertController.m */,
+				03E04B971B75B72300E95677 /* MultiConvertController.xib */,
+			);
+			name = UIView;
+			sourceTree = "<group>";
+		};
 		037544431B5CD73B00E74DD9 /* images */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,6 +222,7 @@
 		03FFAE791B55FD7D0041087E = {
 			isa = PBXGroup;
 			children = (
+				034857D21B759D490099F0C8 /* UIView */,
 				03A5D79D1B686AA60023119C /* Array */,
 				037544431B5CD73B00E74DD9 /* images */,
 				03FFAEB81B5600080041087E /* Basic */,
@@ -394,6 +418,7 @@
 				032667C71B5E4E9800FC7ECB /* Thumb.png in Resources */,
 				84A4B36E1B60A139006C43B4 /* ruby.png in Resources */,
 				84A4B3731B60A16E006C43B4 /* IamRick.xib in Resources */,
+				03E04B991B75B72400E95677 /* MultiConvertController.xib in Resources */,
 				03FFAE961B55FD7D0041087E /* LaunchScreen.xib in Resources */,
 				032667C91B5E556B00FC7ECB /* bg_MaximumTrackImage.png in Resources */,
 				03A651971B5F33EA00315FAA /* slider_text.png in Resources */,
@@ -415,6 +440,7 @@
 				03A5D7931B6720720023119C /* ScrollViewController.xib in Resources */,
 				84A4B3641B609BA3006C43B4 /* ico_update.png in Resources */,
 				03A6519E1B5F773900315FAA /* bg_slider.png in Resources */,
+				034857D71B759DE10099F0C8 /* SwiftToObjectiveCController.xib in Resources */,
 				84A4B3621B609BA3006C43B4 /* ico_rain.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +459,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				034857D61B759DE10099F0C8 /* SwiftToObjectiveCController.m in Sources */,
 				03A651A51B5F8AE200315FAA /* SilderAdvanced.m in Sources */,
 				BE23FEFD1B6A620500AD6561 /* DocSo.m in Sources */,
 				03FFAEBC1B5600520041087E /* SelectorController.m in Sources */,
@@ -443,6 +470,7 @@
 				84A4B36F1B60A139006C43B4 /* IamRickController.m in Sources */,
 				84A4B3661B609BA3006C43B4 /* WeatherController.m in Sources */,
 				03FFAEB61B55FED90041087E /* ConsoleScreen.m in Sources */,
+				03E04B981B75B72400E95677 /* MultiConvertController.m in Sources */,
 				03FFAEB41B55FED90041087E /* AppDelegate.m in Sources */,
 				03A651BA1B5F9F1C00315FAA /* TurnOnOff.m in Sources */,
 				0317617B1B6F4C23003EF1D0 /* SapXepArray.m in Sources */,

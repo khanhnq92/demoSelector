@@ -15,6 +15,14 @@
 {
     MainScreen* mainScreen = [[MainScreen alloc] initWithStyle:UITableViewStyleGrouped];
     //--------- From this line, please customize your menu data -----------
+    NSDictionary* UIvView= @{SECTION: @"UIView", MENU: @[
+                                     @{TITLE: @"Swift to ObjectiveC", CLASS: @"SwiftToObjectiveCController"},
+                                     ]};
+    NSDictionary* AraayDemo= @{SECTION: @"Araay", MENU: @[
+                                       @{TITLE: @"Query Array", CLASS: @"QueryArray"},
+                                       @{TITLE: @"Read number", CLASS: @"DocSo"},
+                                       @{TITLE: @"Quick Sort", CLASS: @"SapXepArray"},
+                                       ]};
     NSDictionary* basic = @{SECTION: @"Basic", MENU: @[
                                      @{TITLE: @"Zigzac", CLASS: @"ZigzacController"},
                                      @{TITLE: @"Weather", CLASS: @"WeatherController"},
@@ -25,12 +33,6 @@
                                     @{TITLE: @"TunOnOff", CLASS: @"TurnOnOff"},
                                      @{TITLE: @"scrollView", CLASS: @"ScrollViewController"},
                           ]};
-    NSDictionary* AraayDemo= @{SECTION: @"Araay", MENU: @[
-                                           @{TITLE: @"Query Array", CLASS: @"QueryArray"},
-                                           @{TITLE: @"Read number", CLASS: @"DocSo"},
-                                           @{TITLE: @"Quick Sort", CLASS: @"SapXepArray"},
-                                           ]};
-
     NSDictionary* intermediate = @{SECTION: @"Intermediate", MENU: @[
                                     @{TITLE: @"Inter LED", CLASS: @"InterLED"},
                                     @{TITLE: @"TransForm", CLASS: @"TransFormController"},
@@ -39,7 +41,7 @@
                                     @{TITLE: @"Slider Advanced C", CLASS: @"SilderAdvanced"}
                              ]};
     
-    mainScreen.menu = @[basic,AraayDemo, intermediate, advanced];
+    mainScreen.menu = @[UIvView, basic,AraayDemo, intermediate, advanced];
     mainScreen.title = @"Bootstrap App";
     mainScreen.about = @"This is demo bootstrap demo app. It is collection of sample code of AVFoundation";
     //--------- End of customization -----------
