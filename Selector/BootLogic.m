@@ -17,7 +17,9 @@
     //--------- From this line, please customize your menu data -----------
     NSDictionary* UIvView= @{SECTION: @"UIView", MENU: @[
                                      @{TITLE: @"Swift to ObjectiveC", CLASS: @"SwiftToObjectiveCController"},
+                                     @{TITLE: @"Multi Convert Swift", CLASS: @"MultiConvertController"},
                                      ]};
+    
     NSDictionary* AraayDemo= @{SECTION: @"Araay", MENU: @[
                                        @{TITLE: @"Query Array", CLASS: @"QueryArray"},
                                        @{TITLE: @"Read number", CLASS: @"DocSo"},
