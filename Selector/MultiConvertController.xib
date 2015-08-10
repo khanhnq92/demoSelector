@@ -6,6 +6,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MultiConvertController">
             <connections>
+                <outlet property="rotation" destination="HmS-OB-Bwe" id="6fc-wU-dJn"/>
+                <outlet property="slScale" destination="ALH-yZ-NvM" id="gHv-Vg-NuZ"/>
                 <outlet property="vHienThi" destination="LrU-aD-5iV" id="XSB-un-cIX"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
