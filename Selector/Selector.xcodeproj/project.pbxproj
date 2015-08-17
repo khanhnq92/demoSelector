@@ -34,6 +34,16 @@
 		03A651B61B5F9EFE00315FAA /* OnWhiteLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 03A651B21B5F9EFE00315FAA /* OnWhiteLeft.png */; };
 		03A651BA1B5F9F1C00315FAA /* TurnOnOff.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A651B81B5F9F1C00315FAA /* TurnOnOff.m */; };
 		03CFA9B91B6884080063635E /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CFA9B81B6884080063635E /* Student.m */; };
+		03D453B91B8178F500C76270 /* StartsField.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D453B71B8178F500C76270 /* StartsField.m */; };
+		03D453BA1B8178F500C76270 /* StartsField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D453B81B8178F500C76270 /* StartsField.xib */; };
+		03D453C01B8179DB00C76270 /* brown.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D453BC1B8179DB00C76270 /* brown.png */; };
+		03D453C11B8179DB00C76270 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D453BD1B8179DB00C76270 /* green.png */; };
+		03D453C21B8179DB00C76270 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D453BE1B8179DB00C76270 /* red.png */; };
+		03D453C31B8179DB00C76270 /* violet.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D453BF1B8179DB00C76270 /* violet.png */; };
+		03D453C61B81946B00C76270 /* UIColor+color.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D453C51B81946B00C76270 /* UIColor+color.m */; };
+		03D453CB1B819CA300C76270 /* HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D453C91B819CA300C76270 /* HexColor.m */; };
+		03D453CC1B819CA300C76270 /* HexColor.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D453CA1B819CA300C76270 /* HexColor.xib */; };
+		03D453CF1B81B5C300C76270 /* ColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D453CE1B81B5C300C76270 /* ColorView.m */; };
 		03D6D22A1B7843EA00AD0058 /* HoatHinhController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D6D2281B7843EA00AD0058 /* HoatHinhController.m */; };
 		03D6D22B1B7843EA00AD0058 /* HoatHinhController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D6D2291B7843EA00AD0058 /* HoatHinhController.xib */; };
 		03D6D23A1B784D8200AD0058 /* burningFire1.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D6D22D1B784D8200AD0058 /* burningFire1.png */; };
@@ -140,6 +150,20 @@
 		03A651B91B5F9F1C00315FAA /* TurnOnOff.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TurnOnOff.xib; sourceTree = "<group>"; };
 		03CFA9B71B6884080063635E /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		03CFA9B81B6884080063635E /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		03D453B61B8178F500C76270 /* StartsField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartsField.h; sourceTree = "<group>"; };
+		03D453B71B8178F500C76270 /* StartsField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartsField.m; sourceTree = "<group>"; };
+		03D453B81B8178F500C76270 /* StartsField.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartsField.xib; sourceTree = "<group>"; };
+		03D453BC1B8179DB00C76270 /* brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brown.png; sourceTree = "<group>"; };
+		03D453BD1B8179DB00C76270 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		03D453BE1B8179DB00C76270 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		03D453BF1B8179DB00C76270 /* violet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = violet.png; sourceTree = "<group>"; };
+		03D453C41B81946B00C76270 /* UIColor+color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+color.h"; sourceTree = "<group>"; };
+		03D453C51B81946B00C76270 /* UIColor+color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+color.m"; sourceTree = "<group>"; };
+		03D453C81B819CA300C76270 /* HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexColor.h; sourceTree = "<group>"; };
+		03D453C91B819CA300C76270 /* HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexColor.m; sourceTree = "<group>"; };
+		03D453CA1B819CA300C76270 /* HexColor.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HexColor.xib; sourceTree = "<group>"; };
+		03D453CD1B81B5C300C76270 /* ColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorView.h; sourceTree = "<group>"; };
+		03D453CE1B81B5C300C76270 /* ColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorView.m; sourceTree = "<group>"; };
 		03D6D2271B7843EA00AD0058 /* HoatHinhController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoatHinhController.h; sourceTree = "<group>"; };
 		03D6D2281B7843EA00AD0058 /* HoatHinhController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoatHinhController.m; sourceTree = "<group>"; };
 		03D6D2291B7843EA00AD0058 /* HoatHinhController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HoatHinhController.xib; sourceTree = "<group>"; };
@@ -250,6 +274,12 @@
 				03D6D25F1B78920C00AD0058 /* flyingbird.h */,
 				03D6D2601B78920C00AD0058 /* flyingbird.m */,
 				03D6D2611B78920C00AD0058 /* flyingbird.xib */,
+				03D453B61B8178F500C76270 /* StartsField.h */,
+				03D453B71B8178F500C76270 /* StartsField.m */,
+				03D453B81B8178F500C76270 /* StartsField.xib */,
+				03D453C81B819CA300C76270 /* HexColor.h */,
+				03D453C91B819CA300C76270 /* HexColor.m */,
+				03D453CA1B819CA300C76270 /* HexColor.xib */,
 			);
 			name = UIView;
 			sourceTree = "<group>";
@@ -257,6 +287,7 @@
 		037544431B5CD73B00E74DD9 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				03D453BB1B8179DB00C76270 /* Stars */,
 				03D6D2641B78981500AD0058 /* birds_cardinal.mp3 */,
 				03D6D25D1B788E3600AD0058 /* mobileBackGround.mp3 */,
 				03D6D24E1B788E0A00AD0058 /* flyingbird */,
@@ -292,6 +323,28 @@
 				0317617A1B6F4C23003EF1D0 /* SapXepArray.m */,
 			);
 			name = Array;
+			sourceTree = "<group>";
+		};
+		03D453BB1B8179DB00C76270 /* Stars */ = {
+			isa = PBXGroup;
+			children = (
+				03D453BC1B8179DB00C76270 /* brown.png */,
+				03D453BD1B8179DB00C76270 /* green.png */,
+				03D453BE1B8179DB00C76270 /* red.png */,
+				03D453BF1B8179DB00C76270 /* violet.png */,
+			);
+			path = Stars;
+			sourceTree = "<group>";
+		};
+		03D453C71B81947D00C76270 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				03D453C41B81946B00C76270 /* UIColor+color.h */,
+				03D453C51B81946B00C76270 /* UIColor+color.m */,
+				03D453CD1B81B5C300C76270 /* ColorView.h */,
+				03D453CE1B81B5C300C76270 /* ColorView.m */,
+			);
+			name = Class;
 			sourceTree = "<group>";
 		};
 		03D6D22C1B784C3D00AD0058 /* burningFire */ = {
@@ -332,6 +385,7 @@
 			isa = PBXGroup;
 			children = (
 				03D6D24C1B78887100AD0058 /* AVFoundation.framework */,
+				03D453C71B81947D00C76270 /* Class */,
 				034857D21B759D490099F0C8 /* UIView */,
 				03A5D79D1B686AA60023119C /* Array */,
 				037544431B5CD73B00E74DD9 /* images */,
@@ -523,6 +577,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03D453C11B8179DB00C76270 /* green.png in Resources */,
 				03D6D23F1B784D8200AD0058 /* burningFire6.png in Resources */,
 				03D6D24B1B787D4900AD0058 /* NestedSquares.xib in Resources */,
 				03D6D2571B788E0A00AD0058 /* bird1.png in Resources */,
@@ -539,6 +594,7 @@
 				032667C91B5E556B00FC7ECB /* bg_MaximumTrackImage.png in Resources */,
 				03D6D2411B784D8200AD0058 /* burningFire8.png in Resources */,
 				03A651971B5F33EA00315FAA /* slider_text.png in Resources */,
+				03D453BA1B8178F500C76270 /* StartsField.xib in Resources */,
 				03FFAEBD1B5600520041087E /* SelectorController.xib in Resources */,
 				037544461B5CD74D00E74DD9 /* ball_running.png in Resources */,
 				03D6D2631B78920C00AD0058 /* flyingbird.xib in Resources */,
@@ -550,6 +606,8 @@
 				03D6D25B1B788E0A00AD0058 /* bird5.png in Resources */,
 				0375444C1B5CD94B00E74DD9 /* InterLED.xib in Resources */,
 				03D6D25E1B788E3600AD0058 /* mobileBackGround.mp3 in Resources */,
+				03D453C21B8179DB00C76270 /* red.png in Resources */,
+				03D453C31B8179DB00C76270 /* violet.png in Resources */,
 				0375443D1B5CD2AA00E74DD9 /* Slider.xib in Resources */,
 				03D6D23B1B784D8200AD0058 /* burningFire2.png in Resources */,
 				03A3F80B1B65C44900A45D76 /* TransFormController.xib in Resources */,
@@ -558,6 +616,7 @@
 				03D6D23A1B784D8200AD0058 /* burningFire1.png in Resources */,
 				03D6D2451B784D8200AD0058 /* burningFire12.png in Resources */,
 				84A4B3591B609A87006C43B4 /* Zigzac.xib in Resources */,
+				03D453C01B8179DB00C76270 /* brown.png in Resources */,
 				03D6D23C1B784D8200AD0058 /* burningFire3.png in Resources */,
 				03D6D2591B788E0A00AD0058 /* bird3.png in Resources */,
 				03A651A61B5F8AE200315FAA /* SilderAdvanced.xib in Resources */,
@@ -566,6 +625,7 @@
 				03FFAE931B55FD7D0041087E /* Images.xcassets in Resources */,
 				03D6D25A1B788E0A00AD0058 /* bird4.png in Resources */,
 				84A4B3631B609BA3006C43B4 /* ico_sun.png in Resources */,
+				03D453CC1B819CA300C76270 /* HexColor.xib in Resources */,
 				037544471B5CD74D00E74DD9 /* ball.png in Resources */,
 				03A5D7931B6720720023119C /* ScrollViewController.xib in Resources */,
 				03D6D2461B784D8200AD0058 /* burningFire13.png in Resources */,
@@ -598,6 +658,8 @@
 				03D6D2621B78920C00AD0058 /* flyingbird.m in Sources */,
 				03A651A51B5F8AE200315FAA /* SilderAdvanced.m in Sources */,
 				BE23FEFD1B6A620500AD6561 /* DocSo.m in Sources */,
+				03D453CB1B819CA300C76270 /* HexColor.m in Sources */,
+				03D453CF1B81B5C300C76270 /* ColorView.m in Sources */,
 				03FFAEBC1B5600520041087E /* SelectorController.m in Sources */,
 				03FFAEB51B55FED90041087E /* BootLogic.m in Sources */,
 				03FFAEB71B55FED90041087E /* MainScreen.m in Sources */,
@@ -606,6 +668,7 @@
 				84A4B36F1B60A139006C43B4 /* IamRickController.m in Sources */,
 				03D6D24A1B787D4900AD0058 /* NestedSquares.m in Sources */,
 				84A4B3661B609BA3006C43B4 /* WeatherController.m in Sources */,
+				03D453C61B81946B00C76270 /* UIColor+color.m in Sources */,
 				03FFAEB61B55FED90041087E /* ConsoleScreen.m in Sources */,
 				03E04B981B75B72400E95677 /* MultiConvertController.m in Sources */,
 				03FFAEB41B55FED90041087E /* AppDelegate.m in Sources */,
@@ -619,6 +682,7 @@
 				03D6D22A1B7843EA00AD0058 /* HoatHinhController.m in Sources */,
 				03A5D7921B6720720023119C /* ScrollViewController.m in Sources */,
 				03CFA9B91B6884080063635E /* Student.m in Sources */,
+				03D453B91B8178F500C76270 /* StartsField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

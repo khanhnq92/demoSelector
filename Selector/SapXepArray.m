@@ -143,7 +143,6 @@
         for (int i=0; i<5; i++) {
             printf("%s\n",(char*)arr[i]);
         }
-
         if(i<=j){
             temp=arr[i];
             arr[i]=arr[j];

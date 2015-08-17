@@ -21,6 +21,8 @@
                                      @{TITLE: @"Hoat hinh UIVIEW", CLASS: @"HoatHinhController"},
                                      @{TITLE: @"NestedSquares", CLASS: @"NestedSquares"},
                                      @{TITLE: @"flyingbird", CLASS: @"flyingbird"},
+                                      @{TITLE: @"StartsField", CLASS: @"StartsField"},
+                                      @{TITLE: @"HexColor", CLASS: @"Hex_2"},
                                      ]};
     NSDictionary* AraayDemo= @{SECTION: @"Araay", MENU: @[
                                        @{TITLE: @"Query Array", CLASS: @"QueryArray"},
