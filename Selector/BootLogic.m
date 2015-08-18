@@ -23,6 +23,8 @@
                                      @{TITLE: @"flyingbird", CLASS: @"flyingbird"},
                                       @{TITLE: @"StartsField", CLASS: @"StartsField"},
                                       @{TITLE: @"HexColor", CLASS: @"Hex_2"},
+                                     @{TITLE: @"RollingBall", CLASS: @"RollingBall"},
+
                                      ]};
     NSDictionary* AraayDemo= @{SECTION: @"Araay", MENU: @[
                                        @{TITLE: @"Query Array", CLASS: @"QueryArray"},

@@ -44,6 +44,9 @@
 		03D453CB1B819CA300C76270 /* HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D453C91B819CA300C76270 /* HexColor.m */; };
 		03D453CC1B819CA300C76270 /* HexColor.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D453CA1B819CA300C76270 /* HexColor.xib */; };
 		03D453CF1B81B5C300C76270 /* ColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D453CE1B81B5C300C76270 /* ColorView.m */; };
+		03D453D31B81C92100C76270 /* RollingBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D453D11B81C92100C76270 /* RollingBall.m */; };
+		03D453D41B81C92100C76270 /* RollingBall.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D453D21B81C92100C76270 /* RollingBall.xib */; };
+		03D453D61B81D2AD00C76270 /* soccer.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D453D51B81D2AD00C76270 /* soccer.png */; };
 		03D6D22A1B7843EA00AD0058 /* HoatHinhController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D6D2281B7843EA00AD0058 /* HoatHinhController.m */; };
 		03D6D22B1B7843EA00AD0058 /* HoatHinhController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D6D2291B7843EA00AD0058 /* HoatHinhController.xib */; };
 		03D6D23A1B784D8200AD0058 /* burningFire1.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D6D22D1B784D8200AD0058 /* burningFire1.png */; };
@@ -164,6 +167,10 @@
 		03D453CA1B819CA300C76270 /* HexColor.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HexColor.xib; sourceTree = "<group>"; };
 		03D453CD1B81B5C300C76270 /* ColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorView.h; sourceTree = "<group>"; };
 		03D453CE1B81B5C300C76270 /* ColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorView.m; sourceTree = "<group>"; };
+		03D453D01B81C92100C76270 /* RollingBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollingBall.h; sourceTree = "<group>"; };
+		03D453D11B81C92100C76270 /* RollingBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollingBall.m; sourceTree = "<group>"; };
+		03D453D21B81C92100C76270 /* RollingBall.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RollingBall.xib; sourceTree = "<group>"; };
+		03D453D51B81D2AD00C76270 /* soccer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soccer.png; sourceTree = "<group>"; };
 		03D6D2271B7843EA00AD0058 /* HoatHinhController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoatHinhController.h; sourceTree = "<group>"; };
 		03D6D2281B7843EA00AD0058 /* HoatHinhController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoatHinhController.m; sourceTree = "<group>"; };
 		03D6D2291B7843EA00AD0058 /* HoatHinhController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HoatHinhController.xib; sourceTree = "<group>"; };
@@ -280,6 +287,9 @@
 				03D453C81B819CA300C76270 /* HexColor.h */,
 				03D453C91B819CA300C76270 /* HexColor.m */,
 				03D453CA1B819CA300C76270 /* HexColor.xib */,
+				03D453D01B81C92100C76270 /* RollingBall.h */,
+				03D453D11B81C92100C76270 /* RollingBall.m */,
+				03D453D21B81C92100C76270 /* RollingBall.xib */,
 			);
 			name = UIView;
 			sourceTree = "<group>";
@@ -287,6 +297,7 @@
 		037544431B5CD73B00E74DD9 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				03D453D51B81D2AD00C76270 /* soccer.png */,
 				03D453BB1B8179DB00C76270 /* Stars */,
 				03D6D2641B78981500AD0058 /* birds_cardinal.mp3 */,
 				03D6D25D1B788E3600AD0058 /* mobileBackGround.mp3 */,
@@ -615,6 +626,7 @@
 				032667C51B5E4E9800FC7ECB /* bg_MinimumTrackImage.png in Resources */,
 				03D6D23A1B784D8200AD0058 /* burningFire1.png in Resources */,
 				03D6D2451B784D8200AD0058 /* burningFire12.png in Resources */,
+				03D453D61B81D2AD00C76270 /* soccer.png in Resources */,
 				84A4B3591B609A87006C43B4 /* Zigzac.xib in Resources */,
 				03D453C01B8179DB00C76270 /* brown.png in Resources */,
 				03D6D23C1B784D8200AD0058 /* burningFire3.png in Resources */,
@@ -625,6 +637,7 @@
 				03FFAE931B55FD7D0041087E /* Images.xcassets in Resources */,
 				03D6D25A1B788E0A00AD0058 /* bird4.png in Resources */,
 				84A4B3631B609BA3006C43B4 /* ico_sun.png in Resources */,
+				03D453D41B81C92100C76270 /* RollingBall.xib in Resources */,
 				03D453CC1B819CA300C76270 /* HexColor.xib in Resources */,
 				037544471B5CD74D00E74DD9 /* ball.png in Resources */,
 				03A5D7931B6720720023119C /* ScrollViewController.xib in Resources */,
@@ -664,6 +677,7 @@
 				03FFAEB51B55FED90041087E /* BootLogic.m in Sources */,
 				03FFAEB71B55FED90041087E /* MainScreen.m in Sources */,
 				037544411B5CD6B500E74DD9 /* LEDController.m in Sources */,
+				03D453D31B81C92100C76270 /* RollingBall.m in Sources */,
 				84A4B3571B609A58006C43B4 /* ZigzacController.m in Sources */,
 				84A4B36F1B60A139006C43B4 /* IamRickController.m in Sources */,
 				03D6D24A1B787D4900AD0058 /* NestedSquares.m in Sources */,
