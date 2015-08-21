@@ -33,10 +33,16 @@
     content=@[@"Hà Nam, Hà Nam, Hà Nam, Hà Nam, Hà Nam,",@"Hồ Chí Minh, Hồ Chí Minh,Hồ Chí Minh,",@"New York, New York, New York, New York",@"Đà Nẵng, Đà Nẵng, Đà Nẵng, Đà Nẵng"];
 }
 - (IBAction)doNhietdo:(id)sender {
-    if(!check)
+    float nhietDo=[[_btnNhietDo titleLabel].text floatValue];
+    if(!check){
         _lblDo.text=@"F";
-    else
+        nhietDo=nhietDo*1.8+32;
+    }
+    else{
         _lblDo.text=@"C";
+        nhietDo=(nhietDo-32)/1.8;
+    }
+    [_btnNhietDo setTitle:[NSString stringWithFormat:@"%2.1f",nhietDo] forState:UIControlStateNormal];
     check=!check;
 }
 

@@ -24,7 +24,8 @@
                                       @{TITLE: @"StartsField", CLASS: @"StartsField"},
                                       @{TITLE: @"HexColor", CLASS: @"Hex_2"},
                                      @{TITLE: @"RollingBall", CLASS: @"RollingBall"},
-
+                                     @{TITLE: @"SunAndEarth", CLASS: @"SunAndEarth"},
+                                     @{TITLE: @"DropBall", CLASS: @"DropBall"},
                                      ]};
     NSDictionary* AraayDemo= @{SECTION: @"Araay", MENU: @[
                                        @{TITLE: @"Query Array", CLASS: @"QueryArray"},
